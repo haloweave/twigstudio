@@ -26,8 +26,8 @@ a {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: 90%;
-  height: 96%;
+  width: 96%;
+  height: 90%;
   background-color: black;
   border-radius: 20px;
 }
@@ -38,4 +38,11 @@ a {
 
 .description {
   color: white;
+}
+
+@media (max-width: 480px) {
+  .content-container {
+    width: 90%;
+    height: 94%;
+  }
 }
