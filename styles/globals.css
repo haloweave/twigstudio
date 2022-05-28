@@ -25,19 +25,20 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
   width: 96%;
   height: 90%;
-  background-color: black;
-  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 36px;
 }
 
-.title {
-  color: white;
+.logo {
+  width: 70%;
 }
 
 .description {
-  color: white;
+  color: black;
+  display: flex;
 }
 
 @media (max-width: 480px) {
@@ -46,3 +47,4 @@ a {
     height: 94%;
   }
 }
+
