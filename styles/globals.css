@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 html,
 body {
   padding: 0;
@@ -33,18 +35,49 @@ a {
 }
 
 .logo {
-  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-top: 18%;
 }
 
 .description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  margin-top: 1.8%;
+  margin-bottom: 6.9%;
   color: black;
   display: flex;
 }
+
+
+.contactButton {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.12em;
+  text-align: center;
+  color: #F2F2F2;
+  padding: 1rem 3rem 1rem 3rem;
+  margin-top: 3rem;
+  background: linear-gradient(97.27deg, #663D5C 0%, #A093E5 100%);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 9px;
+}
+
 
 @media (max-width: 480px) {
   .content-container {
     width: 90%;
     height: 94%;
+  }
+  .svgLogo {
+    width: 200px;
+    margin-top: 12rem;
+  }
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 12rem;
   }
 }
 

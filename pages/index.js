@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <div className='content-container'>
         <div className='logo'>
-            <svg width="360" height="100" viewBox="0 0 1182 331" fill="none"   xmlns="http://www.w3.org/2000/svg">
+            <svg className="svgLogo" width="360" height="100" viewBox="0 0 1182 331" fill="none"   xmlns="http://www.w3.org/2000/svg">
             <path d="M1066.5 24V1C1088.33 -0.5 1141.3 5.1 1178.5 39.5C1181 43 1183 48.5 1177.5 54C1173.1 58.4 1167.67 57.5 1165.5 56.5C1149.83 44.6667 1108.1 21.6 1066.5 24Z" fill="#FA3E00"/>
             <path d="M1051.5 306.5V329.5C1004.67 326.5 908.5 290.5 898.5 170.5C898.5 104.5 933 21.5 1051.5 2.5V24.5C1009.33 30 924.3 66.9 921.5 170.5C921.5 185.5 938 294 1051.5 306.5Z" fill="#575755"/>
             <path d="M12 5C5.37258 5 0 10.3726 0 17C0 23.6274 5.37258 29 12 29H233C239.627 29 245 23.6274 245 17C245 10.3726 239.627 5 233 5H12Z" fill="#FA3E00"/>
@@ -26,6 +26,7 @@ export default function Home() {
             </svg>
         </div>
         <p className='description'>Site under development ✨</p>
+        <a href="mailto:bala@purplefig.design" className="contactButton">Contact</a>
       </div>
     </div>
   )
