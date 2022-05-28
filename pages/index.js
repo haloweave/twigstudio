@@ -26,7 +26,7 @@ export default function Home() {
             </svg>
         </div>
         <p className='description'>Site under development ✨</p>
-        <a href="mailto:bala@purplefig.design" className="contactButton">Contact</a>
+        <a href="mailto:contact@haloweave.com" className="contactButton">Contact</a>
       </div>
     </div>
   )
