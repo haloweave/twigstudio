@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Twig Studio</title>
         <meta name="description" content="Twig Studio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon_mwn_icon.ico" />
       </Head>
       <div className='content-container'>
         <div className='logo'>
