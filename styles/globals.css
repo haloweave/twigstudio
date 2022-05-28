@@ -79,5 +79,10 @@ a {
     font-size: 1.2rem;
     margin-bottom: 12rem;
   }
+  .contactButton {
+    font-size: 1.25rem;
+    padding: 1rem 3rem 1rem 3rem;
+    margin-top: 3rem;
+  }
 }
 
